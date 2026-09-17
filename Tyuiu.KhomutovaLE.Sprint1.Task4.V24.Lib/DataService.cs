@@ -6,7 +6,7 @@ namespace Tyuiu.KhomutovaLE.Sprint1.Task4.V24.Lib
     {
         public double Calculate(double x, double y)
         {
-            double chisl = Math.Log(x * y, Math.Exp(1));
+            double chisl = Math.Log(x, Math.Exp(1)) * y;
             return Math.Round((chisl / (x + Math.Sqrt(2 * y * y))), 3);
         }
     }

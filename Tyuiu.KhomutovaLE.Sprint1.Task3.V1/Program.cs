@@ -1,6 +1,6 @@
-﻿using Tyuiu.KhomutovaLE.Sprint1.Task2.V12.Lib;
+﻿using Tyuiu.KhomutovaLE.Sprint1.Task3.V1.Lib;
 
-namespace Tyuiu.KhomutovaLE.Sprint1.Task2.V12
+namespace Tyuiu.KhomutovaLE.Sprint1.Task3.V1
 {
     internal class Program
     {
@@ -13,9 +13,9 @@ namespace Tyuiu.KhomutovaLE.Sprint1.Task2.V12
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* Тема: Арифметические операторы в C#                                     *");
-            Console.WriteLine("* Задание #2                                                              *");
-            Console.WriteLine("* Вариант #12                                                             *");
+            Console.WriteLine("* Тема: Операторы составного присваивания                                 *");
+            Console.WriteLine("* Задание #3                                                              *");
+            Console.WriteLine("* Вариант #1                                                              *");
             Console.WriteLine("* Выполнила: Хомутова Лидия Евгеньевна | РППб-26-1                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
@@ -26,22 +26,19 @@ namespace Tyuiu.KhomutovaLE.Sprint1.Task2.V12
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            int x, y, z;
+            double r, h;
 
-            Console.WriteLine("Введите значение длины:");
-            x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите значение радиуса основания цилиндра:");
+            r = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Введите значение ширины:");
-            y = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Введите значение высоты:");
-            z = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите значение высоты цилиндра:");
+            h = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.CalculateParallelepipedVolume(x, y, z));
+            Console.WriteLine(ds.CylinderVolume(r, h));
 
             Console.ReadLine();
         }

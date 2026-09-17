@@ -13,7 +13,7 @@ namespace Tyuiu.KhomutovaLE.Sprint1.Task1.V17
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
+            Console.WriteLine("* Тема: Организация ввода\\вывода в консольных приложениях                *");
             Console.WriteLine("* Задание #1                                                              *");
             Console.WriteLine("* Вариант #17                                                             *");
             Console.WriteLine("* Выполнила: Хомутова Лидия Евгеньевна | РППб-26-1                        *");
